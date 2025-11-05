@@ -1,0 +1,515 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #333;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+/* About Section */
+#about 
+ body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.about-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.about-section h1 {
+  font-size: 2em;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.about-image img {
+  width: 280px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.about-text {
+  max-width: 500px;
+  text-align: justify;
+  font-size: 1em;
+  line-height: 1.7;
+  color: #444;
+}
+
+.explore {
+  margin-top: 50px;
+  color: #444;
+  font-size: 1em;
+}
+
+.explore span {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 5px;
+}
+
+/* ✅ Responsive design for mobile */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-text {
+    max-width: 90%;
+    text-align: justify;
+  }
+
+  .about-image img {
+    width: 80%;
+  }
+
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Navigation */
+nav {
+  background-color: #333;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+}
+nav li {
+  margin: 0 15px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover, nav a.active {
+  color: #ffd700;
+}
+
+/* Section styling */
+.section {
+  padding: 50px 20px;
+  text-align: center;
+}
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+.section span {
+  color: #0078ff;
+}
+
+/* Certificates */
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #222;
+  text-align: center;
+}
+
+.section {
+  padding: 50px 20px;
+}
+
+.section h2 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.section h2 span {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 25px;
+  width: 280px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* EXPERIENCES IMAGES */
+.card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+/* CERTIFICATES ICON */
+.card .icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #777;
+}
+
+button {
+  background-color: white;
+  border: 1px solid black;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+.experience-card .info {
+  padding: 15px;
+}
+.experience-card:hover {
+  transform: translateY(-5px);
+}
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #222;
+}
+
+/* --- Hero Section --- */
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+
+/* --- Profile Image --- */
+.hero-image img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* --- Text Content --- */
+.hero-text {
+  text-align: left;
+  max-width: 400px;
+}
+
+.hero-text .hello {
+  font-size: 1.1em;
+  color: #666;
+}
+
+.hero-text h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  margin: 5px 0;
+}
+
+.hero-text .job-title {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+/* --- Buttons --- */
+.hero-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn.primary {
+  background-color: black;
+  color: white;
+}
+
+.btn.secondary {
+  border: 1px solid #000;
+  color: black;
+}
+
+.btn.primary:hover {
+  background-color: #333;
+}
+
+.btn.secondary:hover {
+  background-color: black;
+  color: white;
+}
+
+/* --- Social Icons --- */
+.social-icons a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #555;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text {
+    text-align: center;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+}
+
+/* Contact Section */
+#contact 
+  /* Reset and font setup */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+/* CONTACT FORM SECTION (Pink box first) */
+.contact-form {
+  background-color: #fddde6;
+  max-width: 500px;
+  margin: 50px auto 30px;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+  text-align: center;
+  color: #c2185b;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  color: #444;
+  font-weight: 500;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin-top: 25px;
+  padding: 12px;
+  background-color: #c2185b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #a3154d;
+}
+
+/* CONTACT INFO SECTION (Second, white layout) */
+.contact-info {
+  text-align: center;
+  padding: 60px 20px 40px;
+}
+
+.contact-info h3 {
+  font-weight: 400;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.contact-info h1 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.contact-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #ddd;
+  border-radius: 40px;
+  padding: 10px 25px;
+  transition: 0.3s;
+}
+
+.contact-item:hover {
+  background-color: #f9f9f9;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-item i {
+  font-size: 18px;
+}
+
+.contact-item p {
+  font-size: 15px;
+  margin: 0;
+}
+
+.fa-solid fa-envelope {
+  font-size: 15px;
+  margin: 0;
+}
+
+.fa-brands fa-facebook {
+    font-size: 15px;
+     margin: 0;
+}
